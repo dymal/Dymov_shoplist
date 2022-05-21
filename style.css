@@ -1,0 +1,268 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+
+.title{   
+    font-family:Montserrat;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 148.02%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ff9354;
+    margin-top: 75px;
+}
+.sector{
+    display: flex;
+    justify-content: center;
+    display: block;
+}
+.sector2{
+    display: flex;
+    justify-content: center;
+    display: none;
+
+}
+.sector3{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.sector4{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.sector5{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.sector6{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.sector7{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.sector8{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.sector9{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.sector10{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+
+.block{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.plus{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    background-color: blue;
+    color: white;
+    font-family: Montserrat;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 30px
+
+
+}
+
+.gal{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    background-color: grey;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.formstyle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 148.02%;
+    letter-spacing: 0.01em;
+    color: black;
+    padding: 1px 27px;
+
+}
+
+.form1{
+    width: 500px;
+    height: 50px;
+    border: 0;
+    border-radius: 20px;
+    background-color: gainsboro;
+    margin-right: 30px;
+}
+
+.form2{
+    width: 160px;
+    height: 50px;
+    border: 0;
+    border-radius: 30px;
+    background-color: gainsboro;
+    margin-right: 30px;
+}
+
+.form3{
+    width: 160px;
+    height: 50px;
+    border: 0;
+    border-radius: 30px;
+    background-color: gainsboro;
+    margin-right: 30px;
+}
+
+.photo{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.close{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.out_kod{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    
+}
+
+.modal_content {
+    padding: 20px;
+    margin: 7% auto;
+    background-color: #EEEFF1;
+    width: 70%;
+    border-radius: 20px;
+    
+}
+
+.kr {
+    font-family: Montserrat;
+    font-size: 48px;
+    color: #ff6600;
+    float: right;
+    cursor: pointer;
+}
+.modal_title{
+    font-family:Montserrat;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 148.02%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ff9354;
+}
+.send_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kart{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.modal_div{
+    text-align: center;
+}
+.modal_button1{
+    width: 170px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+    background-color: #ff6600;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.modal_button2{
+    width: 170px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+    background-color: #ff4800;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
